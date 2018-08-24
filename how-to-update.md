@@ -3,13 +3,13 @@
 To update your local desktop wallet and your masternode, follow our instructions.\
 If you have any questions/issues, feel free to contact us via Discord **INVITE LINK TO DISCORD**
 
-# Local desktop wallet update
+## Local desktop wallet update
 1. Download desktop wallet for Windows, Linux or macOS here: https://github.com/Argo20/argo/releases
 2. Make sure, to **create a backup of your wallet.dat!**
 3. Close your wallet and replace **argo-qt.exe** with new/downloaded
 4. Start new **argo-qt.exe**
 
-# Updating ARGO daemon on VPS
+## Updating ARGO daemon on VPS
 1. Login to your VPS and stop your ARGO daemon using this command: 
 
    `argo-cli stop`
