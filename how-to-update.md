@@ -10,6 +10,12 @@ If you have any questions/issues, feel free to contact us via Discord **INVITE L
 4. Start new **argo-qt.exe**
 
 # Updating ARGO daemon on VPS
-1. Login to your VPS and stop your ARGO daemon using this command: `argo-cli stop`
-2. If you're not sure, where argo-cli is located on your VPS use this command to find the file: `find . -type f -name "argod"`
-3. Download new release: `wget https://github.com/Argo20/argo/releases/download/v1.1.0.0/argocore-1.1.0-i686-pc-linux-gnu.tar.gz`
+1. Login to your VPS and stop your ARGO daemon using this command: 
+
+   `argo-cli stop`
+2. If you're not sure, where argo-cli is located on your VPS use this command to find the file:
+
+   `find . -type f -name "argod"`
+3. Download and extract new release:
+
+   `wget https://github.com/Argo20/argo/releases/download/v1.1.0.0/argocore-1.1.0-i686-pc-linux-gnu.tar.gz`
