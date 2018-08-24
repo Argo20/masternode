@@ -1,6 +1,6 @@
 # How to update ARGO masternode
 
-To update your local desktop wallet and your masternode, follow our instructions.
+To update your local desktop wallet and your masternode, follow our instructions.\
 If you have any questions/issues, feel free to contact us via Discord **INVITE LINK TO DISCORD**
 
 # Local desktop wallet update
@@ -15,7 +15,16 @@ If you have any questions/issues, feel free to contact us via Discord **INVITE L
    `argo-cli stop`
 2. If you're not sure, where argo-cli is located on your VPS use this command to find the file:
 
+   `cd /`\
    `find . -type f -name "argod"`
-3. Download and extract new release:
+   
+   Now use the ARGO folder location to stop your masternode:
+   
+   `./<YOUR-ARGO-FOLDER-LOCATION>/argo-cli stop`
+   
+3. Download and extract new release:\
+It is important to replace **argod** and **argo-cli** in the folder where the files are located!
 
-   `wget https://github.com/Argo20/argo/releases/download/v1.1.0.0/argocore-1.1.0-i686-pc-linux-gnu.tar.gz`
+   `wget https://github.com/Argo20/argo/releases/download/v1.1.0.0/argocore-1.1.0-i686-pc-linux-gnu.tar.gz`\
+   `tar -xzvf argocore-1.1.0-i686-pc-linux-gnu.tar.gz`
+   `cp argocore-1.1.0/bin/argod argocore-1.1.0/bin/argo-cli /<YOUR-ARGO-FOLDER-LOCATION>/`
