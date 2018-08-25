@@ -17,7 +17,7 @@ If you have any questions/issues, feel free to contact us via Discord **INVITE L
 
    `cd /`\
    `sudo find . -type f -name "argod"`\
-   **Hint:** Take this path from output, but withoud __argod__ and the end from output
+   **Hint:** Take this path from output, but without __argod__ and the end from output
    
    Now use the ARGO folder location to stop your masternode:
    
