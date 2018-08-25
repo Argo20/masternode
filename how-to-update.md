@@ -13,7 +13,7 @@ If you have any questions/issues, feel free to contact us via Discord **INVITE L
 1. Login to your VPS and stop your ARGO daemon using this command: 
 
    `argo-cli stop`
-2. If you're not sure, where argo-cli is located on your VPS use this command to find the file:
+2. If you're not sure, where argod is located on your VPS use this command to find the file:
 
    `cd /`\
    `find . -type f -name "argod"`
