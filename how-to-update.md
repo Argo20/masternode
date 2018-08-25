@@ -42,7 +42,7 @@ __Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, wh
    Now your ARGO files are updated (argod & argo-cli). Check if your blockchain on your VPS is synched:\
    `/<YOUR-ARGO-FOLDER-LOCATION>/argo-cli getinfo | grep blocks`
 
-   Check your block with ARGO Block-Explorer: https://altmix.org/coins/45-ARGO/explorer
+   Check your block with ARGO Block-Explorer: <a href="https://altmix.org/coins/45-ARGO/explorer" target="_blank">https://altmix.org/coins/45-ARGO/explorer</a>
    
    If Blockchain on your VPS is up to date, continue with next step.
    
