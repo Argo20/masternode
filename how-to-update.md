@@ -28,3 +28,13 @@ It is important to replace **argod** and **argo-cli** in the folder where the fi
    `wget https://github.com/Argo20/argo/releases/download/v1.1.0.0/argocore-1.1.0-i686-pc-linux-gnu.tar.gz`\
    `tar -xzvf argocore-1.1.0-i686-pc-linux-gnu.tar.gz`\
    `cp argocore-1.1.0/bin/argod argocore-1.1.0/bin/argo-cli /<YOUR-ARGO-FOLDER-LOCATION>/`
+
+4. Start new ARGO daemon (your masternode)\
+__Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, where this file is localted, use this command to find it:\
+
+   `cd /`\
+   `find . -type f -name "argo.conf"`\
+
+   Start the new ARGO daemon: `/<YOUR-ARGO-FOLDER-LOCATION>/argod -daemon`\
+
+   Check if ARGO daemon is running: `/<YOUR-ARGO-FOLDER-LOCATION>/argo-cli getinfo`
