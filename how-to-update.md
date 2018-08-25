@@ -16,7 +16,8 @@ If you have any questions/issues, feel free to contact us via Discord **INVITE L
 2. If you're not sure, where argod is located on your VPS use this command to find the file:
 
    `cd /`\
-   `sudo find . -type f -name "argod"`
+   `sudo find . -type f -name "argod"`\
+   **Hint:** Take this path from output, but withoud __argod__ and the end from output
    
    Now use the ARGO folder location to stop your masternode:
    
