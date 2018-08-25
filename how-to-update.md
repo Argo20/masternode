@@ -16,7 +16,7 @@ If you have any questions/issues, feel free to contact us via Discord **INVITE L
 2. If you're not sure, where argod is located on your VPS use this command to find the file:
 
    `cd /`\
-   `find . -type f -name "argod"`
+   `sudo find . -type f -name "argod"`
    
    Now use the ARGO folder location to stop your masternode:
    
@@ -33,7 +33,7 @@ It is important to replace **argod** and **argo-cli** in the folder where the fi
 __Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, where this file is localted, use this command to find it:\
 
    `cd /`\
-   `find . -type f -name "argo.conf"`
+   `sudo find . -type f -name "argo.conf"`
 
    Start the new ARGO daemon: `/<YOUR-ARGO-FOLDER-LOCATION>/argod -daemon`
 
