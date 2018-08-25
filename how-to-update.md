@@ -50,5 +50,11 @@ __Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, wh
    Open your desktop wallet, unlock your wallet (Menu __Settings -> Unlock Wallet__), goto __Masternodes__ tab, click on your masternode
    and press __Start alias__ button. Your masternode should be started now.
    
-   Masternode status will change to **_WATCHDOG_EXPIRED_** but after 20 minutes should change to **_ENABLED_**.\
+   Check your masternode status on your VPS via:\
+   `/<YOUR-ARGO-FOLDER-LOCATION>/argo-cli masternode status | grep status`
+   
+   If everything went fine, status should be\
+   `"status": "Masternode successfully started"`
+   
+   Masternode status in your desktop wallet will change to **_WATCHDOG_EXPIRED_** but after 20 minutes should change to **_ENABLED_**.\
    After masternode status changed to **__ENABLED__**, you will get ARGO coins after about 10 hours.
