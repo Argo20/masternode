@@ -33,8 +33,21 @@ It is important to replace **argod** and **argo-cli** in the folder where the fi
 __Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, where this file is localted, use this command to find it:\
 
    `cd /`\
-   `find . -type f -name "argo.conf"`\
+   `find . -type f -name "argo.conf"`
 
-   Start the new ARGO daemon: `/<YOUR-ARGO-FOLDER-LOCATION>/argod -daemon`\
+   Start the new ARGO daemon: `/<YOUR-ARGO-FOLDER-LOCATION>/argod -daemon`
 
    Check if ARGO daemon is running: `/<YOUR-ARGO-FOLDER-LOCATION>/argo-cli getinfo`
+   
+   Now your ARGO files are updated (argod & argo-cli). Check if your blockchain on your VPS is synched:\
+   `/<YOUR-ARGO-FOLDER-LOCATION>/argo-cli getinfo | grep blocks`
+
+   Check your block with ARGO Block-Explorer: https://altmix.org/coins/45-ARGO/explorer
+   
+   If Blockchain on your VPS is up to date, continue with next step.
+   
+5. Start your masternode from desktop wallet \
+   Open your desktop wallet, unlock your wallet (Menu __Settings -> Unlock Wallet__), goto __Masternodes__ tab, click on your masternode
+   and press __Start alias__ button. Your masternode should be started now.
+   
+   Masternode status will change to **_WATCHDOG_EXPIRED_** but after 20 minutes should change to **_ENABLED_**.
