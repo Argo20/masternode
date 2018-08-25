@@ -58,3 +58,12 @@ __Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, wh
    
    Masternode status in your desktop wallet will change to **_WATCHDOG_EXPIRED_** but after 20 minutes should change to **_ENABLED_**.\
    After masternode status changed to **__ENABLED__**, you will get ARGO coins after about 10 hours.
+   
+   If your wallet / masternode have any sync problems, add these nodes to your desktop wallet **__argo.conf__** and / or to your VPS **__argo.conf__**
+   
+   `addnode=51.15.103.195`\
+   `addnode=51.15.239.195`\
+   `addnode=51.15.252.134`\
+   `addnode=51.15.112.200`\
+   `addnode=51.15.112.57`\
+   `addnode=51.15.254.77`
