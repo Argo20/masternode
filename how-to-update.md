@@ -1,7 +1,7 @@
 # How to update ARGO masternode
 
 To update your local desktop wallet and your masternode, follow our instructions.\
-If you have any questions/issues, feel free to contact us via Discord **https://discord.gg/vxnBpWy**
+If you have any questions/issues, feel free to contact us via Discord: **https://discord.gg/vxnBpWy**
 
 ## Local desktop wallet update
 1. Download desktop wallet for Windows, Linux or macOS here: https://github.com/Argo20/argo/releases
