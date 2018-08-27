@@ -241,6 +241,7 @@ echo 'argo_conf='$CONFIGFOLDER/$CONFIG_FILE$'
 network=mainnet
 db_name=database/sentinel.db
 db_driver=sqlite' | sudo -E tee $SENTINEL_CONF >/dev/null 2>&1
+chmod -R 755 $DATAFOLDER/sentinel/database
 clear
 }
 
