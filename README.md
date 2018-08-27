@@ -4,7 +4,9 @@ Welcome to our ARGO masternode repository. Here you find guides like how to upda
 
 ## Installing ARGO masternode
 
-To install a new ARGO masternode (including updates and sentinel), just download our script and execute it and follow steps showed in script.\
+To install a new ARGO masternode (including updates and sentinel), just download our script and execute it and follow steps showed in script.
+
+**Important:** Run this script as **_root_**, if you plan to run this script as non-root user, it may fails!\
 **Our script is tested on Ubuntu 16.04**
 
 `wget https://raw.githubusercontent.com/Argo20/masternode/master/masternode-setup.sh`\
