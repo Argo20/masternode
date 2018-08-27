@@ -23,7 +23,7 @@ If you continue to occurs WATCHDOG_EXPIRED error, check the following:
   
     "status": "Masternode successfully started"
   
-`cd ~/ARGO/sentinel/`
+`cd ~/ARGO/sentinel/` \
 `./venv/bin/py.test ./test`
   
     ===== 23 passed in 0.25 seconds =====
