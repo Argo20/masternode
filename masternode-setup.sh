@@ -9,7 +9,8 @@ SENTINEL_CONF=$DATAFOLDER/sentinel/sentinel.conf
 COIN_DAEMON='argod'
 COIN_CLI='argo-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ=$(curl -s https://api.github.com/repos/Argo20/argo/releases/latest | grep -i "argocore-1.1.0-x86_64-unknown-linux-gnu.tar.gz" | grep -i "browser_download_url" | awk -F" " '{print $2}' | sed 's/"//g')
+COIN_LATEST_RELEASE='argocore-1.1.0-x86_64-unknown-linux-gnu.tar.gz'
+COIN_TGZ=$(curl -s https://api.github.com/repos/Argo20/argo/releases/latest | grep -i $COIN_LATEST_RELEASE | grep -i "browser_download_url" | awk -F" " '{print $2}' | sed 's/"//g')
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='ARGO'
 COIN_PORT=8989
@@ -236,7 +237,7 @@ virtualenv ./venv >/dev/null 2>&1
 ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
 echo "* * * * * cd $DATAFOLDER/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1" >> /var/spool/cron/crontabs/root >/dev/null 2>&1
 
-echo 'argo_conf=$CONFIGFOLDER/$CONFIG_FILE$
+echo 'argo_conf='$CONFIGFOLDER/$CONFIG_FILE$'
 network=mainnet
 db_name=database/sentinel.db
 db_driver=sqlite' | sudo -E tee $SENTINEL_CONF >/dev/null 2>&1
