@@ -235,7 +235,7 @@ git clone https://github.com/Argo20/sentinel.git && cd sentinel >/dev/null 2>&1
 virtualenv ./venv >/dev/null 2>&1
 ./venv/bin/pip install -r requirements.txt >/dev/null 2>&1
 ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
-echo "* * * * * cd $DATAFOLDER/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1" >> /var/spool/cron/crontabs/root >/dev/null 2>&1
+echo "* * * * * cd $DATAFOLDER/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
 
 echo 'argo_conf='$CONFIGFOLDER/$CONFIG_FILE$'
 network=mainnet
