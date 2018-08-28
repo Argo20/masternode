@@ -236,7 +236,7 @@ virtualenv ./venv >/dev/null 2>&1
 ./venv/bin/pip install -r requirements.txt >/dev/null 2>&1
 ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
 echo "* * * * * cd $DATAFOLDER/sentinel && SENTINEL_DEBUG=1 ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1" >> /var/spool/cron/crontabs/root
-echo "0 0 * * 0 rm $DATAFOLDER/sentinel.log" >> /var/spool/cron/crontabs/root
+echo "0 0 * * 0 rm $DATAFOLDER/sentinel/sentinel.log" >> /var/spool/cron/crontabs/root
 
 echo 'argo_conf='$CONFIGFOLDER/$CONFIG_FILE$'
 network=mainnet
