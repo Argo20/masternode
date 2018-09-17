@@ -12,6 +12,9 @@ COIN_PATH='/usr/local/bin/'
 COIN_LATEST_RELEASE='argocore-1.1.0-x86_64-unknown-linux-gnu.tar.gz'
 COIN_TGZ=$(curl -s https://api.github.com/repos/Argo20/argo/releases/latest | grep -i $COIN_LATEST_RELEASE | grep -i "browser_download_url" | awk -F" " '{print $2}' | sed 's/"//g')
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
+COIN_CHAIN_FILE='argo-blockchain.tar.gz'
+COIN_CHAIN='https://node-support.network/bootstrap/'$COIN_CHAIN_FILE
+PHYS_MEM=$(echo $(($(getconf _PHYS_PAGES) * $(getconf PAGE_SIZE) / (1024 * 1024))))
 COIN_NAME='ARGO'
 COIN_PORT=8989
 RPC_PORT=8988
@@ -249,17 +252,35 @@ clear
 }
 
 function create_swap() {
-read -e -p "Is your VPS Provider allowing to create SWAP file? If not sure hit enter! [Y/n] : " swapallowed
-if [[ ("$swapallowed" == "y" || "$swapallowed" == "Y") ]]; then
-  echo "Creating 2GB SWAP file..."
-  sudo touch /mnt/swap.img >/dev/null 2>&1
-  sudo chmod 0600 /mnt/swap.img >/dev/null 2>&1
-  dd if=/dev/zero of=/mnt/swap.img bs=1024k count=2000 >/dev/null 2>&1
-  sudo mkswap /mnt/swap.img >/dev/null 2>&1
-  sudo swapon /mnt/swap.img >/dev/null 2>&1
-  sudo echo "/mnt/swap.img none swap sw 0 0" >> /etc/fstab >/dev/null 2>&1
-  clear
+SWAP_FILE=$(free -m | grep -i swap | wc -l)
+if [[ $SWAP_FILE == 0 ]]; then
+   read -e -p "Is your VPS Provider allowing to create SWAP file? If not sure hit enter! [Y/n] : " swapallowed
+   if [[ ("$swapallowed" == "y" || "$swapallowed" == "Y") ]]; then
+     echo "Creating SWAP file..."
+     sudo touch /mnt/swap.img >/dev/null 2>&1
+     sudo chmod 0600 /mnt/swap.img >/dev/null 2>&1
+     dd if=/dev/zero of=/mnt/swap.img bs=1024k count=$PHYS_MEM >/dev/null 2>&1
+     sudo mkswap /mnt/swap.img >/dev/null 2>&1
+     sudo swapon /mnt/swap.img >/dev/null 2>&1
+     sudo echo "/mnt/swap.img none swap sw 0 0" >> /etc/fstab >/dev/null 2>&1
+     clear
+   fi
 fi
+}
+
+function bootstrap() {
+TMP_PATH='/root/bootstrap_temp'
+mkdir $TMP_PATH >/dev/null 2>&1
+cd $TMP_PATH >/dev/null 2>&1
+echo -e "Downloading and extracting $COIN_NAME blockchain files."
+wget -q $COIN_CHAIN
+tar -xzvf $COIN_CHAIN_FILE -C $TMP_PATH/ >/dev/null 2>&1
+rm -rf $CONFIGFOLDER/blocks/ >/dev/null 2>&1
+rm -rf $CONFIGFOLDER/chainstate/ >/dev/null 2>&1
+mv $TMP_PATH/root/Bootstrap/.argocore/blocks/ $CONFIGFOLDER/ >/dev/null 2>&1
+mv $TMP_PATH/root/Bootstrap/.argocore/chainstate/ $CONFIGFOLDER/ >/dev/null 2>&1
+cd ~
+rm -r $TMP_PATH >/dev/null 2>&1
 }
 
 function important_information() {
@@ -282,6 +303,7 @@ function important_information() {
 function setup_node() {
   get_ip
   create_config
+  bootstrap
   create_key
   update_config
   enable_firewall
