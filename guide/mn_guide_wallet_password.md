@@ -1,4 +1,4 @@
-### **[Back to guide main site](mn_guide.md)**
+### **[Back to guide main site](readme.md)**
 
 ## Wallet password
 Have an encrypted wallet is not just recommended, but should be done by every wallet user. If anyone gets your wallet.dat and is not encrypted, then he will be able to move your coins from your wallet away.
