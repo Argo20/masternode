@@ -1,4 +1,4 @@
-### **[Back to guide main site](mn_guide.md)**
+### **[Back to guide main site](readme.md)**
 
 ## Wallet backup
 Beside the key it is very important to backup your wallet!\
