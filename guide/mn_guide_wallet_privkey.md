@@ -1,4 +1,4 @@
-### **[Back to guide main site](mn_guide.md)**
+### **[Back to guide main site](readme.md)**
 
 ## Wallet private key
 
