@@ -1,6 +1,6 @@
 ### **[Back to guide main site](readme.md)**
 
-## VPS
+## VPS & masternode setup
 First you need to create a VPS to go forward with this guide. I prefer to use [**Vultr**](https://www.vultr.com/?ref=7397596).
 
 1. Create an account at [**Vultr**](https://www.vultr.com/?ref=7397596)
