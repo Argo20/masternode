@@ -26,3 +26,20 @@ To run a masternode, you need to send 10000 ARGO coins to a new generated wallet
     Open tab **Send**, enter your new created wallet address in field **Pay To:**, the amount of 10000 ARGO coins in field **Amount** and    hit the button **Send**
     
     <img src="https://node-support.network/coins/argo/mn-guide/collateral/5.png">
+    
+    a new window opens to enter your wallet password
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/collateral/6.png">
+    
+    after entering your wallet password you will be asked if you confirm to send your coins
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/collateral/7.png">
+    
+    after you confirmend you can you your transaction in your main wallet window.
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/collateral/7.png">
+    
+    Now you need to wait for 15 confirmations to get your collateral tx & collateral txid.
+    After 15 confirmations, open debug console (goto **Tools** -> **Debug console**) and enter
+    
+    `masternode outputs`
