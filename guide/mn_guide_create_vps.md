@@ -26,3 +26,11 @@ First you need to create a VPS to go forward with this guide. I prefer to use [*
     now goto **Server Hostname & Label** and enter **Server Hostname** and **Server Label** (_e.g. ARGO-mn01_)
     
     <img src="https://node-support.network/coins/argo/mn-guide/vps/5.png">
+    
+    After creating this VPS you will see your VPS on your main page **Servers**. Hit the **Manage** link to get your VPS details
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/vps/6.png">
+    
+    Now you see your VPS details like: **IP-Address, Username and Password (is hidden)**
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/vps/7.png">
