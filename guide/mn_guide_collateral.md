@@ -15,7 +15,14 @@ To run a masternode, you need to send 10000 ARGO coins to a new generated wallet
 
     <img src="https://node-support.network/coins/argo/mn-guide/collateral/3.png">
 
-    Now you see your new generated wallet address in **Receiving addresses** overview
+    now you see your new generated wallet address in **Receiving addresses** overview
 
     <img src="https://node-support.network/coins/argo/mn-guide/collateral/4.png">
+    
+    copy the wallet address to go forward to next step
 
+2. Send 10000 ARGO coins to new wallet address
+
+    Open tab **Send**, enter your new created wallet address in field **Pay To:**, the amount of 10000 ARGO coins in field **Amount** and    hit the button **Send**
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/collateral/5.png">
