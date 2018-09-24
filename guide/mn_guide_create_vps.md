@@ -34,3 +34,11 @@ First you need to create a VPS to go forward with this guide. I prefer to use [*
     Now you see your VPS details like: **IP-Address, Username and Password (is hidden)**
     
     <img src="https://node-support.network/coins/argo/mn-guide/vps/7.png">
+    
+3. Connection to your VPS
+
+    To connect to your VPS, [download and start PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and enter your **IP-Address of your VPS** (see VPS details at Vultr)
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/vps/8.png">
+    
+    
