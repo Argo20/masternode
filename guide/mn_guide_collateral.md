@@ -37,7 +37,7 @@ To run a masternode, you need to send 10000 ARGO coins to a new generated wallet
     
     after you confirmend you can you your transaction in your main wallet window.
     
-    <img src="https://node-support.network/coins/argo/mn-guide/collateral/7.png">
+    <img src="https://node-support.network/coins/argo/mn-guide/collateral/8.png">
     
     Now you need to wait for 15 confirmations to get your collateral tx & collateral txid.\
     **After 15 confirmations**, open debug console (goto **Tools** -> **Debug console**) and enter
