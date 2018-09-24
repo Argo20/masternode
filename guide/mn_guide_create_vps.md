@@ -37,8 +37,16 @@ First you need to create a VPS to go forward with this guide. I prefer to use [*
     
 3. Connection to your VPS
 
-    To connect to your VPS, [download and start PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and enter your **IP-Address of your VPS** (see VPS details at Vultr)
+    To connect to your VPS, [download and start PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), enter your **IP-Address of your VPS** (see VPS details at Vultr) and hit the **Open** button
     
     <img src="https://node-support.network/coins/argo/mn-guide/vps/8.png">
     
+    You will get an **PuTTY Security Alert** window, just hit the **Yes** button to continue
     
+    <img src="https://node-support.network/coins/argo/mn-guide/vps/9.png">
+    
+    Now you're connected to the CLI on your VPS via SSH
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/vps/10.png">
+    
+4. Masternode setup
