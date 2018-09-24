@@ -43,3 +43,9 @@ To run a masternode, you need to send 10000 ARGO coins to a new generated wallet
     **After 15 confirmations**, open debug console (goto **Tools** -> **Debug console**) and enter
     
     `masternode outputs`
+    
+    you will see your collateral tx/txid output, like:
+    
+    `"6aefa62c1bebd5248a873535e66544b3f4d850fb4cf1f6fa7f2747c95c37c4d9": "1"`
+    
+    which you need for your masternode.conf (will be needed later for wallet configuration)
