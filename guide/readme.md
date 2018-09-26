@@ -1,6 +1,6 @@
-# ARGO masternode guide (step by step)
+# ARGO masternode guide
 
-### **Before we start, 3 important things that every user should have/do**
+### **Welcome to our step by step ARGO masternode guide. Follow every step, or you can get into issues.**
 
 ### 1. [Wallet password](mn_guide_wallet_password.md)
 ### 2. [Wallet private key](mn_guide_wallet_privkey.md)
