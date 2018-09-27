@@ -14,3 +14,5 @@ To create a backup of your wallet (wallet.dat), follow this steps:
     
     I named my wallet.dat -> ARGO-wallet.dat because ARGO is not my only wallet backup file.
     Now your ARGO-wallet.dat is saved on your local disk in C:\Backup (my choosed file location for this guide) folder and my recommendation to you is: **Save every wallet backup on USB-Stick additionally!**
+
+### **[Continue to 4. Collateral](mn_guide_collateral.md)**
