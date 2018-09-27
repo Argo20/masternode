@@ -26,3 +26,5 @@ To set a wallet password, follow this steps:
     <img src="https://node-support.network/coins/argo/mn-guide/10.png">
     
     You're finished, lock your wallet.
+
+### **[Continue to 2. Wallet private key](mn_guide_wallet_privkey.md)**
