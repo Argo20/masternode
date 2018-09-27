@@ -26,3 +26,5 @@ Owning your wallet private key is very important to be able to restore your coin
     <img src="https://node-support.network/coins/argo/mn-guide/9.png">
     
     **Important:** Store your wallet private key **safely!** It's like the key of your house door...
+
+### **[Continue to 3. Wallet backup](mn_guide_wallet_backup.md)**
