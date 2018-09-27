@@ -50,3 +50,9 @@ First you need to create a VPS to go forward with this guide. I prefer to use [*
     <img src="https://node-support.network/coins/argo/mn-guide/vps/10.png">
     
 4. Masternode setup
+
+    Now we start the ARGO masternode setup script, copy and paste this command and hit enter:
+    
+    `sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/Argo20/masternode/master/masternode-setup.sh)"`
+    
+    Script begins it's work and you will be asked if SWAP file is allowed. If you followd my instructions and you create a VPS at Vultr then type **y** and hit enter.
