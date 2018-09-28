@@ -101,6 +101,7 @@ EOF
 }
 
 function create_key() {
+  clear
   echo -e "Enter your ${RED}$COIN_NAME Masternode Private Key${NC}. Leave it blank to generate a new ${RED}Masternode Private Key${NC} for you:"
   read -e COINKEY
   if [[ -z "$COINKEY" ]]; then
@@ -130,12 +131,8 @@ maxconnections=64
 masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
-addnode=51.15.103.195
-addnode=51.15.239.195
-addnode=51.15.252.134
-addnode=51.15.112.200
-addnode=51.15.112.57
-addnode=51.15.254.77
+addnode=173.212.203.209
+addnode=173.249.11.174
 EOF
 }
 
