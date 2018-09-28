@@ -6,7 +6,7 @@ Easiest way is to use our ARGO masternode setup script, copy and paste this comm
     
     `sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/Argo20/masternode/master/masternode-setup.sh)"`
        
-Script begins it's work and you will be asked if SWAP file is allowed. If you followd my instructions and you created a VPS at [**Vultr**](https://www.vultr.com/?ref=7397596) then type **y** and hit enter.
+Script begins it's work and you will be asked if SWAP file is allowed. If you followed my instructions and you created a VPS at [**Vultr**](https://www.vultr.com/?ref=7397596) then type **y** and hit enter.
     
 Next question you will be asked is to enter a **masternode genkey**. You have 2 options to generate a masternode key:
     
@@ -28,4 +28,3 @@ Next question you will be asked is to enter a **masternode genkey**. You have 2 
     
     <img src="https://node-support.network/coins/argo/mn-guide/setup/3.png">
     
----
