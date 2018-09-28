@@ -32,3 +32,6 @@ Now copy your genkey and paste it to PuTTY SSH session and hit enter
 
 <img src="https://node-support.network/coins/argo/mn-guide/setup/4.png">
 
+script continues with work and after everything is done, you get all needed informations at the end
+
+<img src="https://node-support.network/coins/argo/mn-guide/setup/5.png">
