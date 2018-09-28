@@ -8,9 +8,11 @@ Easiest way is to use our ARGO masternode setup script, copy and paste this comm
        
 Script begins it's work and you will be asked if SWAP file is allowed. If you followd my instructions and you created a VPS at [**Vultr**](https://www.vultr.com/?ref=7397596) then type **y** and hit enter.
     
-Next question you will be asked is to enter a **masternode genkey**. You have 2 options:
+Next question you will be asked is to enter a **masternode genkey**. You have 2 options to generate a masternode key:
     
-1. Hit enter and script creates a masternode genkey for you which you have to use for your local wallet masternode.conf (we'll get to that in next guide page)
+1. Via ARGO masternode setup script
+
+    Hit enter and script creates a masternode genkey for you which you have to use for your local wallet masternode.conf (we'll get to that in next guide page)
 
 2. Via your local deskop wallet
 
