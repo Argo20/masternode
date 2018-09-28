@@ -252,7 +252,7 @@ clear
 }
 
 function create_swap() {
-SWAP_FILE=$(free -m | grep -i swap | wc -l)
+SWAP_FILE=$(free -m | grep -i swap | awk -F" " '{print $2}')
 if [[ $SWAP_FILE == 0 ]]; then
    read -e -p "Is your VPS Provider allowing to create SWAP file? If not sure hit enter! [Y/n] : " swapallowed
    if [[ ("$swapallowed" == "y" || "$swapallowed" == "Y") ]]; then
