@@ -10,5 +10,20 @@ Script begins it's work and you will be asked if SWAP file is allowed. If you fo
     
 Next question you will be asked is to enter a **masternode genkey**. You have 2 options:
     
-**1.** Create a masternode genkey via your local deskop wallet\
-**2.** Hit enter and script creates a masternode genkey for you which you have to use for your local wallet masternode.conf (we'll get to that in next guide page)
+1. Hit enter and script creates a masternode genkey for you which you have to use for your local wallet masternode.conf (we'll get to that in next guide page)
+
+2. Via your local deskop wallet
+
+    To generate a masternode genkey, open **Debug console** in your wallet
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/setup/1.png">
+    
+    enter **masternode genkey** in the command line
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/setup/2.png">
+    
+    and the masternode genkey is generated
+    
+    <img src="https://node-support.network/coins/argo/mn-guide/setup/3.png">
+    
+---
