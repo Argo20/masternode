@@ -6,4 +6,5 @@
 ### 2. [Wallet private key](mn_guide_wallet_privkey.md)
 ### 3. [Wallet backup](mn_guide_wallet_backup.md)
 ### 4. [Collateral](mn_guide_collateral.md)
-### 5. [VPS & masternode setup](mn_guide_create_vps.md)
+### 5. [VPS](mn_guide_create_vps.md)
+### 6. [Masternode Setup](mn_guide_masternode_setup.md)
