@@ -35,3 +35,7 @@ Now copy your genkey and paste it to PuTTY SSH session and hit enter
 script continues with work and after everything is done, you get all needed informations at the end
 
 <img src="https://node-support.network/coins/argo/mn-guide/setup/5.png">
+
+Keep this window open, or copy **VPS_IP:PORT** and **MASTERNODE PRIVATEKEY** to a text file.
+
+### **[Continue to 7. Masternode start](mn_guide_masternode_start.md)**
