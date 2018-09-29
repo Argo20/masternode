@@ -48,3 +48,9 @@ you get a confirmation that masternode is successfully started
 status of masternode in **Masternodes** tab will change to **WATCHDOG_EXPIRED**
 
 <img src="https://node-support.network/coins/argo/mn-guide/masternode_start/8.png">
+
+after ~ 30 mins masternode status should change to **ENABLED**
+
+<img src="https://node-support.network/coins/argo/mn-guide/masternode_start/9.png">
+
+Finally your masternode is started and activated. If you have any issues, feel free to contact us.
