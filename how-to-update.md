@@ -62,9 +62,5 @@ __Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, wh
    
    If your wallet / masternode have any sync problems, add these nodes to your desktop wallet **__argo.conf__** and / or to your VPS **__argo.conf__**
    
-   `addnode=51.15.103.195`\
-   `addnode=51.15.239.195`\
-   `addnode=51.15.252.134`\
-   `addnode=51.15.112.200`\
-   `addnode=51.15.112.57`\
-   `addnode=51.15.254.77`
+   `addnode=173.212.203.209`\
+   `addnode=173.249.11.174`
