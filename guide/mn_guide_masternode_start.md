@@ -28,3 +28,5 @@ All informations should be added **in one line** to masternode.conf as you can s
 `mn01 95.179.180.218:8989 64xSKa5tJAR3VgAHBTwNmqFHwvo2ia2ZZAJHwqkhJGoQBMt2tgX 806e32c2ccca1dcad3c2be9b2fdb59a90198e00936df982ce63bf30185201aff 1`
 
 <img src="https://node-support.network/coins/argo/mn-guide/masternode_start/3.png">
+
+**Save the masternode.conf file**, close and start your wallet again. After starting wallet and goto **Masternodes* tab
