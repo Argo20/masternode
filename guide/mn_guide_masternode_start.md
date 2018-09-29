@@ -11,17 +11,18 @@ Notepad opens the masternode.conf file which is empty
 <img src="https://node-support.network/coins/argo/mn-guide/masternode_start/2.png">
 
 now we need to add some informations in this file:
-#### 1. Masternode alias
-   You can choose a masternode alias name yourself (e.g. mn01)
+**1. Masternode alias**
+    You can choose a masternode alias name yourself (e.g. mn01)
     
-#### 2. IP-Address:port
-   IP-Address of your VPS and ARGO predefinied port 8989
+**2. IP-Address:port**
+    IP-Address of your VPS and ARGO predefinied port 8989
 
-#### 3. masternode genkey
-   Masternode genkey which was generated via setup script, or via local desktop wallet
+**3. masternode genkey**
+    Masternode genkey which was generated via setup script, or via local desktop wallet
 
-#### 4. Collateral tx / txid
+**4. Collateral tx / txid**
     Collateral tx / txid which you get via wallet debug console
 
 All informations should be added to masternode.conf as you can see my example:
+
 `mn01 95.179.180.218:8989 64xSKa5tJAR3VgAHBTwNmqFHwvo2ia2ZZAJHwqkhJGoQBMt2tgX 806e32c2ccca1dcad3c2be9b2fdb59a90198e00936df982ce63bf30185201aff 1`
