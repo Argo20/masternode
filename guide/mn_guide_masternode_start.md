@@ -33,6 +33,18 @@ All informations should be added **in one line** to masternode.conf as you can s
 
 <img src="https://node-support.network/coins/argo/mn-guide/masternode_start/4.png">
 
-to start the masternode select the entry and hit the **Start Alias** button
+to start the masternode select the entry and hit **Start Alias** button
 
 <img src="https://node-support.network/coins/argo/mn-guide/masternode_start/5.png">
+
+you will be asked if you want to start masternode, just hit **Yes** button
+
+<img src="https://node-support.network/coins/argo/mn-guide/masternode_start/6.png">
+
+you get a confirmation that masternode is successfully started
+
+<img src="https://node-support.network/coins/argo/mn-guide/masternode_start/7.png">
+
+status of masternode in **Masternodes** tab will change to **WATCHDOG_EXPIRED**
+
+<img src="https://node-support.network/coins/argo/mn-guide/masternode_start/8.png">
