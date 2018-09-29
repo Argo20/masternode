@@ -15,7 +15,7 @@ now we need to add some informations in this file:
     You can choose a masternode alias name yourself (e.g. mn01)
     
 2. IP-Address:port\
-    IP-Address of your VPS and ARGO predefinied port 8989
+    IP-Address of your VPS and ARGO predefined port 8989
 
 3. masternode genkey\
     Masternode genkey which was generated via setup script, or via local desktop wallet
@@ -29,4 +29,6 @@ All informations should be added **in one line** to masternode.conf as you can s
 
 <img src="https://node-support.network/coins/argo/mn-guide/masternode_start/3.png">
 
-**Save the masternode.conf file**, close and start your wallet again. After starting wallet and goto **Masternodes* tab
+**Save the masternode.conf file**, close and start your wallet again. After starting wallet and goto **Masternodes** tab and you should see one entry
+
+<img src="https://node-support.network/coins/argo/mn-guide/masternode_start/4.png">
