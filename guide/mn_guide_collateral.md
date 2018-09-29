@@ -48,6 +48,7 @@ To run a masternode, you need to send 10000 ARGO coins to a new generated wallet
     
     `"6aefa62c1bebd5248a873535e66544b3f4d850fb4cf1f6fa7f2747c95c37c4d9": "1"`
     
-    which you need for your masternode.conf (will be needed later for wallet configuration)
+    which is needed for masternode.conf (will be needed later for wallet configuration)\
+    Copy this collateral tx/txid to a text file
 
 ### **[Continue to 5. VPS & Masternode setup](mn_guide_create_vps.md)**
