@@ -32,3 +32,7 @@ All informations should be added **in one line** to masternode.conf as you can s
 **Save the masternode.conf file**, close and start your wallet again. After starting wallet and goto **Masternodes** tab and you should see one entry
 
 <img src="https://node-support.network/coins/argo/mn-guide/masternode_start/4.png">
+
+to start the masternode select the entry and hit the **Start Alias** button
+
+<img src="https://node-support.network/coins/argo/mn-guide/masternode_start/5.png">
