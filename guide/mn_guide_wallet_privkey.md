@@ -3,7 +3,7 @@
 ## Wallet private key
 
 Owning your wallet private key is very important to be able to restore your coins without backup. To get your wallet private key, follow this steps:
-1. Open your wallet, goto **File** -> **Receiving addresses**
+1. Open and unlock your wallet, then goto **File** -> **Receiving addresses**
 
     <img src="https://node-support.network/coins/argo/mn-guide/1.png">
 
