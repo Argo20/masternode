@@ -26,9 +26,9 @@ If you have any questions/issues, feel free to contact us via Discord: **https:/
 3. Download and extract new release:\
 It is important to replace **argod** and **argo-cli** in the folder where the files are located!
 
-   `wget https://github.com/Argo20/argo/releases/download/v1.1.0.0/argocore-1.1.0-x86_64-unknown-linux-gnu.tar.gz`\
-   `tar -xzvf argocore-1.1.0-x86_64-unknown-linux-gnu.tar.gz`\
-   `cp argocore-1.1.0/bin/argod argocore-1.1.0/bin/argo-cli /<YOUR-ARGO-FOLDER-LOCATION>/`
+   `wget https://github.com/Argo20/argo/releases/download/v1.2.1.0/argocore-1.2.1-x86_64-unknown-linux-gnu.tar.gz`\
+   `tar -xzvf argocore-1.2.1-x86_64-unknown-linux-gnu.tar.gz`\
+   `cp argocore-1.2.1/bin/argo{d,-cli} /<YOUR-ARGO-FOLDER-LOCATION>/`
 
 4. Start new ARGO daemon (your masternode)\
 __Important:__ Create a backup of your **_argo.conf_** ! If you are not sure, where this file is localted, use this command to find it:\
